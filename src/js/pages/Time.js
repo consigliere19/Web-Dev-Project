@@ -17,9 +17,9 @@ export default class Time extends React.Component {
     return (
         <div>
             <h2>Time</h2>
-            <h4>
+            <h5>
                 {timeNow}
-            </h4>
+            </h5>
 
             <div><Link to='/home'>&#60;&#60;Home</Link></div>
             <div><Link to='/data'>Data&#62;&#62;</Link></div>
